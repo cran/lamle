@@ -1,0 +1,28 @@
+Changes in version: lamle_0.3.1
+
+* Changed package title to be within 65 characters.
+* Removed \dontrun{} wrapper in help files or changed to \donttest{} (when timing >5s). 
+* Added examples in help files to all visible functions.
+* Main function lamle() no longer writes info directly to console, and instead uses message().
+* The lamle.plot() function now restores the original par() options upon function exit.
+
+Changes in version: lamle_0.3.0
+
+* First public version.
+* Fixed issues in help files and package formatting.
+
+Changes in version: lamle_0.2.8
+
+* Changed output structure for lamle to have a new S4 class 'lamleout'.
+* Argument theta.tol to function lamle() renamed to z.tol.
+* Added computation of expected and observed information matrices for latent variable estimation to the  lamle.predict() function.
+
+Changes in version: lamle_0.2.7
+
+* Added computation of output from lamle-objects (function lamle.compute()).
+* Added plotting methods for lamle-objects (function lamle.plot()).
+* Added MLE scores (function lamle.predict()).
+
+Changes in version: lamle_0.2.6
+
+* Revised help file for lamle() function.
